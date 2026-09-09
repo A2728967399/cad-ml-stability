@@ -9,8 +9,8 @@
   "repository_url": "https://github.com/A2728967399/cad-ml-stability",
   "repository_visibility": "public",
   "license": "MIT",
-  "release_and_archival_status": "Verified against external release and deposition records; no self-referential identifier is embedded.",
-  "archival_identifier": null,
+  "release_and_archival_status": "Version 1.0.0 is released and archived. This current-branch manifest includes post-release navigation updates; it is not the original archived manifest. Analysis code is unchanged.",
+  "archival_identifier": "https://doi.org/10.5281/zenodo.22682152",
   "files": [
     {
       "path": ".gitignore",
@@ -34,13 +34,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "a49dd977a1420ee278c695419575bf29115331e29e0fbbd536045e757a9db327",
-      "bytes": 5036
+      "sha256": "9546564e5888c19fb76349ec5312556c2f3e32800a67d5405325fa91f64d0147",
+      "bytes": 5338
     },
     {
       "path": "RELEASE_STATUS.md",
-      "sha256": "439d993dec97ed6f43398f1a95fad5be4861603a5a74730e92a25db62a686851",
-      "bytes": 1809
+      "sha256": "81b6566fc9549d70935288a136fd68f1249aeda3c99ae9bb917533d8c76e0f99",
+      "bytes": 2773
     },
     {
       "path": "SOURCE_MANIFEST.json",

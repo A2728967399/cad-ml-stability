@@ -2,7 +2,9 @@
 
 Analysis-code repository for the manuscript **Stability of machine-learning algorithm, feature and hyperparameter selection across random training--test splits: an empirical methodological study of 1304 patients with coronary artery disease**.
 
-**Version 1.0.0 code snapshot; MIT licensed.** The public repository is [A2728967399/cad-ml-stability](https://github.com/A2728967399/cad-ml-stability); anonymous access was verified on 2026-09-10. Versioned release and archival identifiers are verified externally at the release/deposition records, rather than embedded self-referentially in this snapshot. See `RELEASE_STATUS.md`.
+**Version 1.0.0 is publicly released under the MIT licence.** Use the [GitHub release](https://github.com/A2728967399/cad-ml-stability/releases/tag/v1.0.0) or the archived code at [Zenodo, DOI: 10.5281/zenodo.22682152](https://doi.org/10.5281/zenodo.22682152) for the version cited in the manuscript.
+
+The `main` branch includes post-release documentation updates. For the exact released snapshot, use the [v1.0.0 tag](https://github.com/A2728967399/cad-ml-stability/tree/v1.0.0) or the code ZIP attached to the release or Zenodo record. These documentation updates do not change the analysis code or replace the archived files. See [release details and checksums](RELEASE_STATUS.md).
 
 This directory is deliberately separate from the clinical workspace. Only explicitly reviewed source files and documentation are eligible for the release archive. Patient data, clinical predictions, membership tables, fitted objects, clinical checkpoints, signed forms, author spreadsheets, manuscript PDFs, and private audit logs are not included.
 
