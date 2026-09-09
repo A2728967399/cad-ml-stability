@@ -1,0 +1,5 @@
+# Additional observed Python packages for figure generation; not clinical fitting.
+matplotlib==3.11.1
+statsmodels==0.14.6
+# The Windows compile driver additionally requires pypdf and Pillow from the
+# bundled desktop runtime; XeLaTeX/BibTeX and Poppler are external executables.
