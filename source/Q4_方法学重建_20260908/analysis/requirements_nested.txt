@@ -1,9 +1,0 @@
-# Observed environment for the frozen clinical rerun; Python 3.11.16.
-# These are package versions observed at execution, not historical Q3 versions.
-numpy==2.4.6
-pandas==3.0.5
-scipy==1.17.1
-scikit-learn==1.9.0
-lightgbm==4.7.0
-xgboost==3.2.0
-joblib==1.5.3
