@@ -2,13 +2,14 @@
 
 Date: 2026-09-10 (Asia/Shanghai).
 
-All three selected unit-test modules passed: **30 tests in total**. The artificial
+All four selected unit-test modules passed in two recorded stages: **40 tests in total**
+(the previously rerun 30 tests plus 10 additional split-precision tests). The artificial
 CSV interface check and the reduced eight-model smoke run also passed. These
 checks used generated arrays, constructed metadata, temporary files, and static
 source-code inspection only. They did not use the clinical dataset or rerun the
 published clinical analyses.
 
-These results were rerun after the repository's English-directory migration.
+The original 30-test results were rerun after the repository's English-directory migration.
 They supersede the pre-migration timings and repository-file hashes. The helper's
 source lookup now uses `source/strict_development/analysis/nested_pipeline.py`;
 its artificial data generation and validation logic did not change. The retained
@@ -28,6 +29,7 @@ interpreter. `-B` prevents Python bytecode-cache writes.
 | Retained nested-pipeline tests, with adapted source lookup | `python -B -m unittest discover -s source/strict_development/tests -p test_nested_pipeline.py -v` | PASS: 11 tests, 0.243 s; exit code 0 |
 | Retained training-event tests | `python -B -m unittest discover -s source/strict_development/tests -p test_training_events.py -v` | PASS: 7 tests, 0.001 s; exit code 0 |
 | New synthetic-tool tests | `python -B -m unittest discover -s tests -p test_synthetic_smoke.py -v` | PASS: 12 tests, 0.070 s; exit code 0 |
+| Added split-precision tests, run separately after the original 30 | `python -B -m unittest discover -s tests -p test_split_precision.py -v` | PASS: 10 tests, 0.018 s; exit code 0 |
 | Artificial input interface | `python -B tools/synthetic_smoke.py --check-only` | PASS; exit code 0; no model fitting |
 | Isolated pipeline smoke | `python -B tools/synthetic_smoke.py --run` | PASS; exit code 0; approximately 3.7 s wall time including the launcher |
 
@@ -35,6 +37,12 @@ Only the two named archived test modules were discovered; no other archived
 `--self-test`, producer, or clinical audit was executed. The WSL launcher emitted
 an environment-level localhost proxy notice. This did not change the successful
 exit codes; the helper's own successful standard output was exactly `PASS`.
+
+An initial attempt to import the added precision-test module with the bundled
+Windows Python failed because SciPy was unavailable. No precision test or
+analysis ran in that attempt. The successful ten-test run above used the existing
+WSL environment. Bytecode caches from the unsuccessful import are excluded from
+the archive, not treated as reviewed source files.
 
 ## What was checked
 
@@ -61,6 +69,15 @@ suppression of captured subprocess logs, complete artificial checkpoints,
 rejection of publication-eligible output, and detection of prediction or file
 tampering. Subprocess calls inside these unit tests are mocked; the separate
 `--run` command above performed the actual reduced pipeline execution.
+
+The ten added precision tests use generated rank-score arrays and constructed
+fixtures. They compare tied ranks with SciPy's Spearman implementation, explicit
+leave-one-split-out deletion, the paired contrast, and invariance under row
+permutation; they also check rank reversal, constant and near-degenerate cases,
+invalid inputs, and compatibility with the manuscript's `result@` macro
+namespace. They do not open the retained aggregate files. The separate
+aggregate-only precision calculation is not a synthetic test or a rerun of the
+patient-based models, and its generated outputs are not distributed here.
 
 The helper generated **240 artificial rows with exactly 52 columns**, comprising
 the 49 input features plus the score and two blood-count formula inputs. Every
@@ -135,6 +152,8 @@ pipeline mirror also matched its original local source after the smoke run.
 | `source/strict_development/analysis/requirements_nested.txt` | `842dc93b353373f9b5a9a217ddc0ba3fa6a692e6cbacc540e97ee8e60e902247` |
 | `tools/synthetic_smoke.py` | `1ce305803d3303ec2be2f6100ce2d9bff6a8374ac4e0b47f3e140a7cf65665a9` |
 | `tests/test_synthetic_smoke.py` | `b8c04f2287c5699a8352c33ecd28963c30881d2958608be9daf2c97f88c0f6b5` |
+| `tools/split_precision.py` | `bdb11fc6b0c2f450a9cf918a5484ee402e84c0decdb0eb2c395d8b8647906aeb` |
+| `tests/test_split_precision.py` | `fd2447b3b7a286d5161b7aee490abfe2c9ddf6c8268fc045b63ca0f1ad41c0ce` |
 | `SOURCE_MANIFEST.json` | `78acee35ecbf61a12c15bacb262c3053cd9970b568f469522984fd771b734ac0` |
 
 ## Limits of the evidence

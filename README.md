@@ -1,8 +1,8 @@
 # CAD machine-learning selection stability
 
-Analysis-code preparation repository for the manuscript **Stability of machine-learning algorithm, feature and hyperparameter selection across random training--test splits: an empirical methodological study of 1304 patients with coronary artery disease**.
+Analysis-code repository for the manuscript **Stability of machine-learning algorithm, feature and hyperparameter selection across random training--test splits: an empirical methodological study of 1304 patients with coronary artery disease**.
 
-**Status: private code preparation, not a public software release.** The destination is [A2728967399/cad-ml-stability](https://github.com/A2728967399/cad-ml-stability). A software licence and archival identifier have not yet been assigned. A private repository is not anonymously accessible and must not be described as publicly available in the manuscript.
+**Version 1.0.0 code snapshot; MIT licensed.** The public repository is [A2728967399/cad-ml-stability](https://github.com/A2728967399/cad-ml-stability); anonymous access was verified on 2026-09-10. Versioned release and archival identifiers are verified externally at the release/deposition records, rather than embedded self-referentially in this snapshot. See `RELEASE_STATUS.md`.
 
 This directory is deliberately separate from the clinical workspace. Only explicitly reviewed source files and documentation are eligible for the release archive. Patient data, clinical predictions, membership tables, fitted objects, clinical checkpoints, signed forms, author spreadsheets, manuscript PDFs, and private audit logs are not included.
 
@@ -13,9 +13,11 @@ This directory is deliberately separate from the clinical workspace. Only explic
 - `PATH_PORTABILITY.md`: the directory mapping, path-only changes and implications for using retained clinical run artifacts.
 - `SOURCES.md`: which parts of the analysis the files cover, and which controlled inputs are required for clinical reproduction.
 - `tools/synthetic_smoke.py` and `tests/`: newly written tests using artificial inputs only.
+- `tools/split_precision.py`: an aggregate-only, split-unit jackknife precision calculation for paired ranking-stability summaries, with separate synthetic tests.
 - `PRIVACY_REVIEW.md`: the code-only packaging review.
+- `LICENSE`: the authorized MIT software licence; it does not grant access to patient data.
 
-All repository file and directory names are English/ASCII. Original Chinese data-column names remain inside the code because they define its input interface; these are labels, not patient records. Start with `SOURCES.md`, rather than executing every script in the archive.
+All file and directory names in this versioned snapshot are English/ASCII. Original Chinese data-column names remain inside the code because they define its input interface; these are labels, not patient records. Start with `SOURCES.md`, rather than executing every script in the archive.
 
 ## Testing without patient data
 
@@ -35,8 +37,10 @@ Do not run all scripts labelled `--self-test`: some original analysis scripts st
 
 Reproduction requires institutionally authorized access to the input data and retained analysis artifacts described in `SOURCES.md`. These inputs are deliberately not distributed. This is an analysis-source archive, not a data-free executable reproduction of the manuscript, and it does not promise exact regeneration of all English figure layouts.
 
-Synthetic tests check selected software behaviour only. They do not reproduce or independently validate the patient-based findings. Preparing this archive did not rerun the clinical models, change manuscript results, or add permutation or Monte Carlo precision analyses.
+Synthetic tests check selected software behaviour only. They do not reproduce or independently validate the patient-based findings. The original 29 study sources and their source manifest were not changed to add the precision tool, and the patient-based models were not refitted.
+
+The separate `split_precision.py` tool estimates split-unit leave-one-out jackknife Monte Carlo standard errors for mean pairwise rank correlations and their paired contrast. It requires three hash-verified aggregate files from the retained analysis (`per_split_metrics.csv`, `rank_correlations.csv` and `summary.json`), which are not included. It neither loads patient rows nor treats overlapping split pairs as independent observations. Its precision is conditional on the retained cohort and computational design, not population uncertainty or a hypothesis test. The aggregate calculation was performed separately from the synthetic software tests; its generated JSON and TeX outputs are not part of this code archive.
 
 ## Data and reuse
 
-No dataset is included, including synthetic dataset files. Artificial test arrays are created at runtime. Patient-level data access remains subject to institutional approval and is not granted by access to this code. Until the rights holder approves a software licence, this preparation does not grant an open-source reuse licence.
+No dataset is included, including synthetic dataset files. Artificial test arrays are created at runtime. Patient-level data access remains subject to institutional approval and is not granted by access to this code. The rights holder authorized distribution of this code and documentation under the MIT licence in `LICENSE`; third-party dependencies retain their own licences.
