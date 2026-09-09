@@ -1,0 +1,37 @@
+# Deny generated or patient-derived content throughout the mirrored source tree.
+**/data/
+**/results/
+**/output/
+**/outputs/
+**/checkpoints/
+**/logs/
+**/tmp/
+**/audit/
+**/__pycache__/
+*.py[cod]
+*.pkl
+*.pickle
+*.joblib
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.csv
+*.tsv
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.lock
+.env
+.env.*
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# The release tool uses an explicit allowlist in addition to these rules.
+# Do not force-add clinical outputs, credentials, or patient records.
