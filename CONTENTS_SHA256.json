@@ -1,0 +1,245 @@
+{
+  "schema": "cad-stability-code-only-v1",
+  "patient_data_included": false,
+  "clinical_results_recomputed": false,
+  "repository_visibility": "private",
+  "license_status": "pending rights-holder selection",
+  "archival_identifier": null,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "62466e3257f379d6a87af199a820a8488bb62843000727dea75850ab281018c0",
+      "bytes": 541
+    },
+    {
+      "path": "PATH_PORTABILITY.md",
+      "sha256": "8e7c2524f6ebab4af6dc8a31e18aaeb78492f70e6ee39acd4235222cc90c29d6",
+      "bytes": 5711
+    },
+    {
+      "path": "PRIVACY_REVIEW.md",
+      "sha256": "190b97d61aa514d8967e66344a3915844da1917fdfe7f53fe2c6ae3928d4aebd",
+      "bytes": 7036
+    },
+    {
+      "path": "README.md",
+      "sha256": "ae925e73535e39b76faab3e11b16caa37b0e1c7ab3ac3ee5950ee6644f826c0d",
+      "bytes": 3974
+    },
+    {
+      "path": "RELEASE_STATUS.md",
+      "sha256": "e44d9d035ddbf0515e2f729e2bfe93f659085b14f557379ebd8b7af5e445e0a5",
+      "bytes": 1132
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "sha256": "78acee35ecbf61a12c15bacb262c3053cd9970b568f469522984fd771b734ac0",
+      "bytes": 22055
+    },
+    {
+      "path": "source/clinical_pipeline/eval/fl_metrics.py",
+      "sha256": "04ac7153f8c1f1812da87405674c705a3b50e04aadbc416210be5a45ba9e1bef",
+      "bytes": 8470
+    },
+    {
+      "path": "source/clinical_pipeline/eval/README.md",
+      "sha256": "dd3d026d2208e539d904eb3820c72c714f356de11fdac46c536bf9422b905082",
+      "bytes": 421
+    },
+    {
+      "path": "source/legacy_clinical/reanalysis/scripts/01_q3_analysis.py",
+      "sha256": "d804d443e0683a6c61bb7ede90c1f215154cd0399c7fe9bc118c681b886d7b28",
+      "bytes": 40107
+    },
+    {
+      "path": "source/legacy_clinical/reanalysis/scripts/02_q3_figures_tables.py",
+      "sha256": "43dac4cb20da882f43647e54ff64e06f12067d05ffda5149b8248c25ae5492a3",
+      "bytes": 25399
+    },
+    {
+      "path": "source/legacy_clinical/reanalysis/scripts/05_ranking_stability.py",
+      "sha256": "8ab7507308c2e7704579e5cadb529d344faf309c97fd1dfef00b23ff4971ebe9",
+      "bytes": 6150
+    },
+    {
+      "path": "source/legacy_clinical/reanalysis/scripts/07_stability_retuned.py",
+      "sha256": "210e56530c4dfddbe68a4562de81b07353cd857e658253fc945efaaff5b9f5e9",
+      "bytes": 5904
+    },
+    {
+      "path": "source/legacy_clinical/reanalysis/scripts/08_cutoff_stability.py",
+      "sha256": "7cfdea622cfa91ea66a70c3b8b9ce4683c941d51ecf83310a67d070bce2359f5",
+      "bytes": 5761
+    },
+    {
+      "path": "source/legacy_clinical/reanalysis/scripts/clinical_units.py",
+      "sha256": "137402741a6f25968c2ea758473073677128c7dfe0b3b131d03e83980f7eb1fa",
+      "bytes": 2061
+    },
+    {
+      "path": "source/legacy_clinical/reanalysis/scripts/README.md",
+      "sha256": "e01723aaa0719944de23a6db5c336ba6bc2317b974385ed078e4dd2bf12cddfa",
+      "bytes": 542
+    },
+    {
+      "path": "source/reporting/analysis/README.md",
+      "sha256": "7ec0e44e6adcd41469b4f9d0d845c408188aa8642cf0684de959112c66b47e73",
+      "bytes": 530
+    },
+    {
+      "path": "source/reporting/analysis/software_environment_v1.py",
+      "sha256": "1d92829643a7b17fe9f29846580652fea1d295f1267d5598aa88f75a0cf01995",
+      "bytes": 16018
+    },
+    {
+      "path": "source/reporting/analysis/study_numbers_v1.py",
+      "sha256": "1ca346c4f8544bfa3d17418e993d333f74c6ec0b4fa7d50ce4a4323f4bbc0783",
+      "bytes": 27377
+    },
+    {
+      "path": "source/reporting/analysis/sync_editorial_numbers.py",
+      "sha256": "d836cff3b63fbee985007e0b34ed4c9cab2a931a55fd9c983a0d4df698e6e10f",
+      "bytes": 31203
+    },
+    {
+      "path": "source/strict_development/analysis/audit_historical.py",
+      "sha256": "c5c34832f18cbd2cf19c151803697382ea8dc5155ed7561d43546183dc2a7c2a",
+      "bytes": 29281
+    },
+    {
+      "path": "source/strict_development/analysis/audit_training_events.py",
+      "sha256": "06e5c6f0236f1301d308888b379851267ee24e326467541a5bd590d80d9fb695",
+      "bytes": 26268
+    },
+    {
+      "path": "source/strict_development/analysis/cohort_audit.py",
+      "sha256": "e3c20046171c852391302dce3681e10a086db7664edb1c62f13c863f656fa5a8",
+      "bytes": 5147
+    },
+    {
+      "path": "source/strict_development/analysis/nested_pipeline.py",
+      "sha256": "0d1d41393b06f57f8a79499b0476c67b2021d28698f2106d0317e6f683693f8f",
+      "bytes": 36273
+    },
+    {
+      "path": "source/strict_development/analysis/oof_scale_audit.py",
+      "sha256": "d888a409e0b24ae157ac08c16366d9376cb210ca83ace88c9f728a3544db0dec",
+      "bytes": 6228
+    },
+    {
+      "path": "source/strict_development/analysis/README.md",
+      "sha256": "9c8649304bb60008797ce036f3df2f7bb3344c04c64b6aa3367bec928cb8af68",
+      "bytes": 570
+    },
+    {
+      "path": "source/strict_development/analysis/requirements_figures.txt",
+      "sha256": "9598a05831e0c0e6edfd54c29478c14faaf13d3c5d97cb131d8941be485267b8",
+      "bytes": 279
+    },
+    {
+      "path": "source/strict_development/analysis/requirements_nested.txt",
+      "sha256": "842dc93b353373f9b5a9a217ddc0ba3fa6a692e6cbacc540e97ee8e60e902247",
+      "bytes": 256
+    },
+    {
+      "path": "source/strict_development/analysis/simulation.py",
+      "sha256": "194b466187a408546f11141af26321a10488b68438c09fc68d3128f05ab644f5",
+      "bytes": 8250
+    },
+    {
+      "path": "source/strict_development/analysis/structure_performance.py",
+      "sha256": "a5730b45c0735c54d96438854a3e69a85158dc7ebd710b47d481e039300eaac2",
+      "bytes": 13176
+    },
+    {
+      "path": "source/strict_development/analysis/summarize_strict.py",
+      "sha256": "c0a97f41a28aadfae7a706d1433a0ef06dc27f60f3926fd2cbb6bd8445e82c99",
+      "bytes": 49427
+    },
+    {
+      "path": "source/strict_development/analysis/validate_checkpoints.py",
+      "sha256": "20ac92d12a80c8f4e5a975c27c7d72b16916dd80e2385fe5fb926bff3f98e4a4",
+      "bytes": 6531
+    },
+    {
+      "path": "source/strict_development/analysis/verify_simulation.py",
+      "sha256": "1497da40a0081818ab89bb062babb2d78d1baec2e7891eb7406eaa7950bc10ba",
+      "bytes": 14053
+    },
+    {
+      "path": "source/strict_development/tests/README.md",
+      "sha256": "231bb46ec5f3a5e254aea28a78d6a910fbdce78c7c17afdaa9c791991c88115c",
+      "bytes": 415
+    },
+    {
+      "path": "source/strict_development/tests/test_nested_pipeline.py",
+      "sha256": "93f4a83a5d6191bc55c14f55148afee1e5ba32282a8c92df1635d2f2ae93bcbc",
+      "bytes": 7921
+    },
+    {
+      "path": "source/strict_development/tests/test_training_events.py",
+      "sha256": "7df11241eb3a5f16d1fc392566c519a08f4a50af3b747d831a62806a88293fb8",
+      "bytes": 5256
+    },
+    {
+      "path": "source/supplementary_analysis/analysis/build_supplement.py",
+      "sha256": "c7ec1448d760fea9e52f8fcba2c6436fdcf51ae261cc415ec2461bbfa2ff36f1",
+      "bytes": 22460
+    },
+    {
+      "path": "source/supplementary_analysis/analysis/complete_lasso_diagnostic_path.py",
+      "sha256": "fecededf0e621a68ba63defb1d920a143994edeaad24303bac7c0bb2212332a4",
+      "bytes": 10443
+    },
+    {
+      "path": "source/supplementary_analysis/analysis/complete_original_metrics.py",
+      "sha256": "706f0e64d1b86cbc2e8463b346216a91681274ee51c06c60275bc1127630ae2e",
+      "bytes": 35816
+    },
+    {
+      "path": "source/supplementary_analysis/analysis/complete_original_models.py",
+      "sha256": "c29beb4b0d8b75222b8e1a1e21806e06026b085100f7a313cd2144b7c19ed0df",
+      "bytes": 30221
+    },
+    {
+      "path": "source/supplementary_analysis/analysis/README.md",
+      "sha256": "2cbb35652f451b234069a35721d474f632bc7ca03607ae9462b2aa46f8ef4868",
+      "bytes": 597
+    },
+    {
+      "path": "source/supplementary_analysis/analysis/sync_evidence.py",
+      "sha256": "7a42de2ceace779855afb1c63946287c4825dd26a6a02ddd9056f7602916ce15",
+      "bytes": 12374
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "33aa409f4cc3817644d91893400765baafefeb937a813f073b9141242b13675e",
+      "bytes": 11484
+    },
+    {
+      "path": "TEST_REPORT.md",
+      "sha256": "cd8912f3f9f156ba933899599dda307a2bc3a68cd3a323cf8368af683314f944",
+      "bytes": 8857
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "7edbf552badae574ae653c73f00f5b5519850137f0d277e31feea5de1a8f90ac",
+      "bytes": 253
+    },
+    {
+      "path": "tests/test_synthetic_smoke.py",
+      "sha256": "b8c04f2287c5699a8352c33ecd28963c30881d2958608be9daf2c97f88c0f6b5",
+      "bytes": 8580
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "b3e9682e004d26894ef7890cb580ca8d4eabbf4a467c408d5fab3448621bc2d5",
+      "bytes": 321
+    },
+    {
+      "path": "tools/synthetic_smoke.py",
+      "sha256": "1ce305803d3303ec2be2f6100ce2d9bff6a8374ac4e0b47f3e140a7cf65665a9",
+      "bytes": 11553
+    }
+  ]
+}

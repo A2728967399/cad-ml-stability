@@ -1,0 +1,582 @@
+[
+  {
+    "path": "source/clinical_pipeline/eval/fl_metrics.py",
+    "sha256": "04ac7153f8c1f1812da87405674c705a3b50e04aadbc416210be5a45ba9e1bef",
+    "bytes": 8470,
+    "original_path": "联邦学习_冠脉病变/eval/fl_metrics.py",
+    "original_sha256": "04ac7153f8c1f1812da87405674c705a3b50e04aadbc416210be5a45ba9e1bef",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/联邦学习_冠脉病变/eval/fl_metrics.py",
+        "to": "source/clinical_pipeline/eval/fl_metrics.py"
+      }
+    ]
+  },
+  {
+    "path": "source/legacy_clinical/reanalysis/scripts/01_q3_analysis.py",
+    "sha256": "d804d443e0683a6c61bb7ede90c1f215154cd0399c7fe9bc118c681b886d7b28",
+    "bytes": 40107,
+    "original_path": "临床篇_八模型/Q3_GS0重分析/scripts/01_q3_analysis.py",
+    "original_sha256": "c6645105096dd8b2df0c4643fcfc3cfb064558a5232db03d2ae5078d2bf6e34e",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/临床篇_八模型/Q3_GS0重分析/scripts/01_q3_analysis.py",
+        "to": "source/legacy_clinical/reanalysis/scripts/01_q3_analysis.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/legacy_clinical/reanalysis/scripts/02_q3_figures_tables.py",
+    "sha256": "43dac4cb20da882f43647e54ff64e06f12067d05ffda5149b8248c25ae5492a3",
+    "bytes": 25399,
+    "original_path": "临床篇_八模型/Q3_GS0重分析/scripts/02_q3_figures_tables.py",
+    "original_sha256": "a407a24602d559f857348e7c3c4cee26ab67629583797f47eef82f70546b8792",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/临床篇_八模型/Q3_GS0重分析/scripts/02_q3_figures_tables.py",
+        "to": "source/legacy_clinical/reanalysis/scripts/02_q3_figures_tables.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "path": "source/legacy_clinical/reanalysis/scripts/05_ranking_stability.py",
+    "sha256": "8ab7507308c2e7704579e5cadb529d344faf309c97fd1dfef00b23ff4971ebe9",
+    "bytes": 6150,
+    "original_path": "临床篇_八模型/Q3_GS0重分析/scripts/05_ranking_stability.py",
+    "original_sha256": "8ab7507308c2e7704579e5cadb529d344faf309c97fd1dfef00b23ff4971ebe9",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/临床篇_八模型/Q3_GS0重分析/scripts/05_ranking_stability.py",
+        "to": "source/legacy_clinical/reanalysis/scripts/05_ranking_stability.py"
+      }
+    ]
+  },
+  {
+    "path": "source/legacy_clinical/reanalysis/scripts/07_stability_retuned.py",
+    "sha256": "210e56530c4dfddbe68a4562de81b07353cd857e658253fc945efaaff5b9f5e9",
+    "bytes": 5904,
+    "original_path": "临床篇_八模型/Q3_GS0重分析/scripts/07_stability_retuned.py",
+    "original_sha256": "210e56530c4dfddbe68a4562de81b07353cd857e658253fc945efaaff5b9f5e9",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/临床篇_八模型/Q3_GS0重分析/scripts/07_stability_retuned.py",
+        "to": "source/legacy_clinical/reanalysis/scripts/07_stability_retuned.py"
+      }
+    ]
+  },
+  {
+    "path": "source/legacy_clinical/reanalysis/scripts/08_cutoff_stability.py",
+    "sha256": "7cfdea622cfa91ea66a70c3b8b9ce4683c941d51ecf83310a67d070bce2359f5",
+    "bytes": 5761,
+    "original_path": "临床篇_八模型/Q3_GS0重分析/scripts/08_cutoff_stability.py",
+    "original_sha256": "7cfdea622cfa91ea66a70c3b8b9ce4683c941d51ecf83310a67d070bce2359f5",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/临床篇_八模型/Q3_GS0重分析/scripts/08_cutoff_stability.py",
+        "to": "source/legacy_clinical/reanalysis/scripts/08_cutoff_stability.py"
+      }
+    ]
+  },
+  {
+    "path": "source/legacy_clinical/reanalysis/scripts/clinical_units.py",
+    "sha256": "137402741a6f25968c2ea758473073677128c7dfe0b3b131d03e83980f7eb1fa",
+    "bytes": 2061,
+    "original_path": "临床篇_八模型/Q3_GS0重分析/scripts/clinical_units.py",
+    "original_sha256": "137402741a6f25968c2ea758473073677128c7dfe0b3b131d03e83980f7eb1fa",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/临床篇_八模型/Q3_GS0重分析/scripts/clinical_units.py",
+        "to": "source/legacy_clinical/reanalysis/scripts/clinical_units.py"
+      }
+    ]
+  },
+  {
+    "path": "source/reporting/analysis/software_environment_v1.py",
+    "sha256": "1d92829643a7b17fe9f29846580652fea1d295f1267d5598aa88f75a0cf01995",
+    "bytes": 16018,
+    "original_path": "Springer_英文翻译版_20260908/analysis/software_environment_v1.py",
+    "original_sha256": "ce04adc53b0971b0e22c90e0f1e24e92d707f1c1a617e278c9471f8321815565",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_英文翻译版_20260908/analysis/software_environment_v1.py",
+        "to": "source/reporting/analysis/software_environment_v1.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q4_方法学重建_20260908",
+        "to": "strict_development",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Springer_方法学原稿更新版_20260908",
+        "to": "supplementary_analysis",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/reporting/analysis/study_numbers_v1.py",
+    "sha256": "1ca346c4f8544bfa3d17418e993d333f74c6ec0b4fa7d50ce4a4323f4bbc0783",
+    "bytes": 27377,
+    "original_path": "Springer_英文翻译版_20260908/analysis/study_numbers_v1.py",
+    "original_sha256": "2a6be2bfdb63bec70bff58644cf0bcb1684d1a0c4b3fb8f4ad960c22da41e46d",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_英文翻译版_20260908/analysis/study_numbers_v1.py",
+        "to": "source/reporting/analysis/study_numbers_v1.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q4_方法学重建_20260908",
+        "to": "strict_development",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Springer_方法学原稿更新版_20260908",
+        "to": "supplementary_analysis",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Springer_英文翻译版_20260908",
+        "to": "reporting",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/reporting/analysis/sync_editorial_numbers.py",
+    "sha256": "d836cff3b63fbee985007e0b34ed4c9cab2a931a55fd9c983a0d4df698e6e10f",
+    "bytes": 31203,
+    "original_path": "Springer_英文翻译版_20260908/analysis/sync_editorial_numbers.py",
+    "original_sha256": "69efd0cf3e3ce3a813bf6f9d970088bf7a9c9468c93116fa9db1c6526dba8a41",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_英文翻译版_20260908/analysis/sync_editorial_numbers.py",
+        "to": "source/reporting/analysis/sync_editorial_numbers.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q4_方法学重建_20260908",
+        "to": "strict_development",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Springer_方法学原稿更新版_20260908",
+        "to": "supplementary_analysis",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/audit_historical.py",
+    "sha256": "c5c34832f18cbd2cf19c151803697382ea8dc5155ed7561d43546183dc2a7c2a",
+    "bytes": 29281,
+    "original_path": "Q4_方法学重建_20260908/analysis/audit_historical.py",
+    "original_sha256": "2575d2f8035fea41a9e88c78bf179fd49690f4c8026b2d302fbdab52e9ab48bb",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/audit_historical.py",
+        "to": "source/strict_development/analysis/audit_historical.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "临床篇_八模型",
+        "to": "legacy_clinical",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q3_GS0重分析",
+        "to": "reanalysis",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/audit_training_events.py",
+    "sha256": "06e5c6f0236f1301d308888b379851267ee24e326467541a5bd590d80d9fb695",
+    "bytes": 26268,
+    "original_path": "Q4_方法学重建_20260908/analysis/audit_training_events.py",
+    "original_sha256": "06e5c6f0236f1301d308888b379851267ee24e326467541a5bd590d80d9fb695",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/audit_training_events.py",
+        "to": "source/strict_development/analysis/audit_training_events.py"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/cohort_audit.py",
+    "sha256": "e3c20046171c852391302dce3681e10a086db7664edb1c62f13c863f656fa5a8",
+    "bytes": 5147,
+    "original_path": "Q4_方法学重建_20260908/analysis/cohort_audit.py",
+    "original_sha256": "9eb0a7e3e38b82d3f1127931c6052372215dddd2a783695a55e6768f2ad0c10a",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/cohort_audit.py",
+        "to": "source/strict_development/analysis/cohort_audit.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "临床篇_八模型",
+        "to": "legacy_clinical",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q3_GS0重分析",
+        "to": "reanalysis",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/nested_pipeline.py",
+    "sha256": "0d1d41393b06f57f8a79499b0476c67b2021d28698f2106d0317e6f683693f8f",
+    "bytes": 36273,
+    "original_path": "Q4_方法学重建_20260908/analysis/nested_pipeline.py",
+    "original_sha256": "0d1d41393b06f57f8a79499b0476c67b2021d28698f2106d0317e6f683693f8f",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/nested_pipeline.py",
+        "to": "source/strict_development/analysis/nested_pipeline.py"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/oof_scale_audit.py",
+    "sha256": "d888a409e0b24ae157ac08c16366d9376cb210ca83ace88c9f728a3544db0dec",
+    "bytes": 6228,
+    "original_path": "Q4_方法学重建_20260908/analysis/oof_scale_audit.py",
+    "original_sha256": "d888a409e0b24ae157ac08c16366d9376cb210ca83ace88c9f728a3544db0dec",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/oof_scale_audit.py",
+        "to": "source/strict_development/analysis/oof_scale_audit.py"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/requirements_figures.txt",
+    "sha256": "9598a05831e0c0e6edfd54c29478c14faaf13d3c5d97cb131d8941be485267b8",
+    "bytes": 279,
+    "original_path": "Q4_方法学重建_20260908/analysis/requirements_figures.txt",
+    "original_sha256": "9598a05831e0c0e6edfd54c29478c14faaf13d3c5d97cb131d8941be485267b8",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/requirements_figures.txt",
+        "to": "source/strict_development/analysis/requirements_figures.txt"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/requirements_nested.txt",
+    "sha256": "842dc93b353373f9b5a9a217ddc0ba3fa6a692e6cbacc540e97ee8e60e902247",
+    "bytes": 256,
+    "original_path": "Q4_方法学重建_20260908/analysis/requirements_nested.txt",
+    "original_sha256": "842dc93b353373f9b5a9a217ddc0ba3fa6a692e6cbacc540e97ee8e60e902247",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/requirements_nested.txt",
+        "to": "source/strict_development/analysis/requirements_nested.txt"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/simulation.py",
+    "sha256": "194b466187a408546f11141af26321a10488b68438c09fc68d3128f05ab644f5",
+    "bytes": 8250,
+    "original_path": "Q4_方法学重建_20260908/analysis/simulation.py",
+    "original_sha256": "194b466187a408546f11141af26321a10488b68438c09fc68d3128f05ab644f5",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/simulation.py",
+        "to": "source/strict_development/analysis/simulation.py"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/structure_performance.py",
+    "sha256": "a5730b45c0735c54d96438854a3e69a85158dc7ebd710b47d481e039300eaac2",
+    "bytes": 13176,
+    "original_path": "Q4_方法学重建_20260908/analysis/structure_performance.py",
+    "original_sha256": "a5730b45c0735c54d96438854a3e69a85158dc7ebd710b47d481e039300eaac2",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/structure_performance.py",
+        "to": "source/strict_development/analysis/structure_performance.py"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/summarize_strict.py",
+    "sha256": "c0a97f41a28aadfae7a706d1433a0ef06dc27f60f3926fd2cbb6bd8445e82c99",
+    "bytes": 49427,
+    "original_path": "Q4_方法学重建_20260908/analysis/summarize_strict.py",
+    "original_sha256": "1c7b91993c9ec7f505cace1186230032e544016c6b41f1823ed6856fc44eb4ed",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/summarize_strict.py",
+        "to": "source/strict_development/analysis/summarize_strict.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/validate_checkpoints.py",
+    "sha256": "20ac92d12a80c8f4e5a975c27c7d72b16916dd80e2385fe5fb926bff3f98e4a4",
+    "bytes": 6531,
+    "original_path": "Q4_方法学重建_20260908/analysis/validate_checkpoints.py",
+    "original_sha256": "20ac92d12a80c8f4e5a975c27c7d72b16916dd80e2385fe5fb926bff3f98e4a4",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/validate_checkpoints.py",
+        "to": "source/strict_development/analysis/validate_checkpoints.py"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/analysis/verify_simulation.py",
+    "sha256": "1497da40a0081818ab89bb062babb2d78d1baec2e7891eb7406eaa7950bc10ba",
+    "bytes": 14053,
+    "original_path": "Q4_方法学重建_20260908/analysis/verify_simulation.py",
+    "original_sha256": "1497da40a0081818ab89bb062babb2d78d1baec2e7891eb7406eaa7950bc10ba",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/analysis/verify_simulation.py",
+        "to": "source/strict_development/analysis/verify_simulation.py"
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/tests/test_nested_pipeline.py",
+    "sha256": "93f4a83a5d6191bc55c14f55148afee1e5ba32282a8c92df1635d2f2ae93bcbc",
+    "bytes": 7921,
+    "original_path": "Q4_方法学重建_20260908/tests/test_nested_pipeline.py",
+    "original_sha256": "14441fe42595ba044799d2971cc0871857de820bd1c028613ad12b5f382162ea",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/tests/test_nested_pipeline.py",
+        "to": "source/strict_development/tests/test_nested_pipeline.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "临床篇_八模型",
+        "to": "legacy_clinical",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q3_GS0重分析",
+        "to": "reanalysis",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/strict_development/tests/test_training_events.py",
+    "sha256": "7df11241eb3a5f16d1fc392566c519a08f4a50af3b747d831a62806a88293fb8",
+    "bytes": 5256,
+    "original_path": "Q4_方法学重建_20260908/tests/test_training_events.py",
+    "original_sha256": "7df11241eb3a5f16d1fc392566c519a08f4a50af3b747d831a62806a88293fb8",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Q4_方法学重建_20260908/tests/test_training_events.py",
+        "to": "source/strict_development/tests/test_training_events.py"
+      }
+    ]
+  },
+  {
+    "path": "source/supplementary_analysis/analysis/build_supplement.py",
+    "sha256": "c7ec1448d760fea9e52f8fcba2c6436fdcf51ae261cc415ec2461bbfa2ff36f1",
+    "bytes": 22460,
+    "original_path": "Springer_方法学原稿更新版_20260908/analysis/build_supplement.py",
+    "original_sha256": "981b0612718348203b67a2daf1f798354714e55b5ca4e245d31d25b68a77f88a",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_方法学原稿更新版_20260908/analysis/build_supplement.py",
+        "to": "source/supplementary_analysis/analysis/build_supplement.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q4_方法学重建_20260908",
+        "to": "strict_development",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/supplementary_analysis/analysis/complete_lasso_diagnostic_path.py",
+    "sha256": "fecededf0e621a68ba63defb1d920a143994edeaad24303bac7c0bb2212332a4",
+    "bytes": 10443,
+    "original_path": "Springer_方法学原稿更新版_20260908/analysis/complete_lasso_diagnostic_path.py",
+    "original_sha256": "fecededf0e621a68ba63defb1d920a143994edeaad24303bac7c0bb2212332a4",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_方法学原稿更新版_20260908/analysis/complete_lasso_diagnostic_path.py",
+        "to": "source/supplementary_analysis/analysis/complete_lasso_diagnostic_path.py"
+      }
+    ]
+  },
+  {
+    "path": "source/supplementary_analysis/analysis/complete_original_metrics.py",
+    "sha256": "706f0e64d1b86cbc2e8463b346216a91681274ee51c06c60275bc1127630ae2e",
+    "bytes": 35816,
+    "original_path": "Springer_方法学原稿更新版_20260908/analysis/complete_original_metrics.py",
+    "original_sha256": "711fe44454924eb32a127b76f4154b523424e0384a8c446c8c18a34a22805689",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_方法学原稿更新版_20260908/analysis/complete_original_metrics.py",
+        "to": "source/supplementary_analysis/analysis/complete_original_metrics.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q4_方法学重建_20260908",
+        "to": "strict_development",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "临床篇_八模型",
+        "to": "legacy_clinical",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q3_GS0重分析",
+        "to": "reanalysis",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "path": "source/supplementary_analysis/analysis/complete_original_models.py",
+    "sha256": "c29beb4b0d8b75222b8e1a1e21806e06026b085100f7a313cd2144b7c19ed0df",
+    "bytes": 30221,
+    "original_path": "Springer_方法学原稿更新版_20260908/analysis/complete_original_models.py",
+    "original_sha256": "99a93d85d9fb4c78c037d28d7fb9ab3159eb9438af63d2c813c8bbf2f7735d30",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_方法学原稿更新版_20260908/analysis/complete_original_models.py",
+        "to": "source/supplementary_analysis/analysis/complete_original_models.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q4_方法学重建_20260908",
+        "to": "strict_development",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "临床篇_八模型",
+        "to": "legacy_clinical",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q3_GS0重分析",
+        "to": "reanalysis",
+        "count": 1
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "联邦学习_冠脉病变",
+        "to": "clinical_pipeline",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "path": "source/supplementary_analysis/analysis/sync_evidence.py",
+    "sha256": "7a42de2ceace779855afb1c63946287c4825dd26a6a02ddd9056f7602916ce15",
+    "bytes": 12374,
+    "original_path": "Springer_方法学原稿更新版_20260908/analysis/sync_evidence.py",
+    "original_sha256": "71f149a2c9da2be1f6f1f84a68b20e656101b2cb4b59bc723463c1b24a3df02b",
+    "changes": [
+      {
+        "kind": "directory_relocation",
+        "from": "source/Springer_方法学原稿更新版_20260908/analysis/sync_evidence.py",
+        "to": "source/supplementary_analysis/analysis/sync_evidence.py"
+      },
+      {
+        "kind": "directory_path_string",
+        "from": "Q4_方法学重建_20260908",
+        "to": "strict_development",
+        "count": 1
+      }
+    ]
+  }
+]

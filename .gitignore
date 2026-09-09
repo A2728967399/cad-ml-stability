@@ -14,6 +14,12 @@
 *.joblib
 *.parquet
 *.feather
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.sqlite
+*.db
 *.xlsx
 *.xls
 *.sav

@@ -8,22 +8,23 @@ This directory is deliberately separate from the clinical workspace. Only explic
 
 ## Contents
 
-- `source/`: byte-preserved analysis sources, arranged in their original relative directories so that provenance checks and local imports remain interpretable.
-- `SOURCE_MANIFEST.json`: SHA-256 hashes and sizes of the frozen source files; no clinical run manifest is included.
+- `source/`: analysis sources in English-named directories, with limited path adaptations documented against the original study sources.
+- `SOURCE_MANIFEST.json`: original-source and adapted-file provenance; no clinical run manifest is included.
+- `PATH_PORTABILITY.md`: the directory mapping, path-only changes and implications for using retained clinical run artifacts.
 - `SOURCES.md`: which parts of the analysis the files cover, and which controlled inputs are required for clinical reproduction.
 - `tools/synthetic_smoke.py` and `tests/`: newly written tests using artificial inputs only.
 - `PRIVACY_REVIEW.md`: the code-only packaging review.
 
-The Chinese directory labels are original internal version labels, not publication titles, journal quartiles or separate cohorts. Preserving them avoids silently changing the source hashes. Start with `SOURCES.md`, rather than executing every script in the archive.
+All repository file and directory names are English/ASCII. Original Chinese data-column names remain inside the code because they define its input interface; these are labels, not patient records. Start with `SOURCES.md`, rather than executing every script in the archive.
 
 ## Testing without patient data
 
-Use a compatible Python environment with the dependencies in `source/Q4_方法学重建_20260908/analysis/requirements_nested.txt`. These are the recorded dependencies of the frozen clinical analysis, not a claim that installation has been tested on every platform. Additional plotting and model-interpretation dependencies are explained in `SOURCES.md`.
+Use a compatible Python environment with the dependencies in `source/strict_development/analysis/requirements_nested.txt`. These are the recorded dependencies of the frozen clinical analysis, not a claim that installation has been tested on every platform. Additional plotting and model-interpretation dependencies are explained in `SOURCES.md`.
 
 The new helper's `--help` describes the explicitly synthetic test options. Its generated inputs and outputs are temporary and are not included in this repository. The original synthetic unit tests can be run from the repository root:
 
 ```sh
-python -m unittest discover -s source/Q4_方法学重建_20260908/tests -p 'test_*.py'
+python -m unittest discover -s source/strict_development/tests -p 'test_*.py'
 python -m unittest discover -s tests -p 'test_*.py'
 python tools/synthetic_smoke.py --help
 ```
